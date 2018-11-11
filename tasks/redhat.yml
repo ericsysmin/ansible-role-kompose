@@ -1,0 +1,4 @@
+---
+- name: kompose | RHEL | Install package from github
+  yum:
+    name: "{{ kompose_rpm_url }}"
