@@ -7,9 +7,9 @@ lint:
   name: yamllint
 platforms:
   - name: instance
-    image: debian:stretch
-  - name: instance
     image: centos:7
+  - name: instance
+    image: debian:stretch
 provisioner:
   name: ansible
   lint:
