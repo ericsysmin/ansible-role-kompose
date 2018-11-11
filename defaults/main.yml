@@ -1,0 +1,3 @@
+---
+# defaults file for kompose
+kompose_version: 1.17.0
