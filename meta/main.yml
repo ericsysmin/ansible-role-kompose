@@ -1,8 +1,8 @@
 ---
 galaxy_info:
+  author: ericsysmin
   role_name: kompose
-  author: Eric Anderson
-  description: Role to install kompose
+  description: Role to install kompose on linux systems
   company: Avi Networks
   license: Apache 2.0
   min_ansible_version: 2.4
