@@ -12,6 +12,7 @@ env:
     - ROLE_NAME: kompose
   matrix:
     - MOLECULE_DISTRO: debian:stretch
+    - MOLECULE_DISTRO: centos:7
 
 install:
   - pip install molecule docker
