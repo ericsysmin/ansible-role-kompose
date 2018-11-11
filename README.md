@@ -1,5 +1,7 @@
 # ericsysmin.kompose
 
+[![Build Status](https://travis-ci.org/ericsysmin/ansible-role-kompose.svg?branch=master)](https://travis-ci.org/ericsysmin/ansible-role-kompose)
+
 This role installs kompose on linux systems.
 
 ## Requirements
