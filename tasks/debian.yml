@@ -1,4 +1,4 @@
 ---
 - name: kompose | Debian | Install package from github
   apt:
-    deb: https://github.com/kubernetes/kompose/releases/download/v{{ kompose_version }}/kompose_{{ kompose_version }}_amd64.deb
+    deb: "{{ kompose_deb_url }}"
