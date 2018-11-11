@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: kompose
   author: Eric Anderson
   description: Role to install kompose
   company: Avi Networks
