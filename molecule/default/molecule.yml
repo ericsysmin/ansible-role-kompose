@@ -9,7 +9,7 @@ lint:
     config-file: molecule/default/.yamllint
 platforms:
   - name: instance
-    image: ${MOLECULE_DISTRO}
+    image: ${MOLECULE_DISTRO:-debian:stretch}
     privileged: true
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
