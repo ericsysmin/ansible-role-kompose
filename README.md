@@ -10,9 +10,9 @@ None
 
 ## Role Variables
 
-| Variable | Required | Default | Comments |
-|----------|----------|---------|----------|
-| `kompose_version` | No | `1.17.0` | Version of Kompose to be installed |
+| Variable          | Required | Default  | Comments                           |
+| ----------------- | -------- | -------- | ---------------------------------- |
+| `kompose_version` | No       | `1.17.0` | Version of Kompose to be installed |
 
 ## Dependencies
 
@@ -20,14 +20,12 @@ None
 
 ## Example Playbook
 
-```
-
+```yaml
 - hosts: servers
   roles:
     - role: ericsysmin.kompose
       kompose_version: 1.17.0
 ```
-
 ## License
 
 MIT
